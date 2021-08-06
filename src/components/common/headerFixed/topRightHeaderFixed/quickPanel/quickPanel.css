@@ -1,0 +1,37 @@
+.quick-panel-transition {
+    transition: left .3s ease,right .3s ease,bottom .3s ease,top .3s ease;
+}
+
+.kt-quick-panel-overlay {
+    background-color: rgba(0,0,0,.1);
+}
+
+.quick-panel-overflow::-webkit-scrollbar {
+    width: 6px;
+    visibility: hidden;
+}
+
+.quick-panel-overflow:hover::-webkit-scrollbar {
+    width: 6px;
+  }
+
+/* Handle */
+.quick-panel-overflow::-webkit-scrollbar-thumb {
+    background: #eee; 
+    border-radius: 10px;
+    display: none;
+}
+
+/* Handle */
+.quick-panel-overflow:hover::-webkit-scrollbar-thumb {
+    background: #eee; 
+    border-radius: 10px;
+    display: block;
+  }
+
+/* Handle on hover */
+.quick-panel-overflow::-webkit-scrollbar-thumb:hover {
+    background: gray; 
+}
+
+/*  */

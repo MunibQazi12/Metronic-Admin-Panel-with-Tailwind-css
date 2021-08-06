@@ -1,0 +1,106 @@
+.aside {
+    overflow-y: auto;
+}
+
+.aside .aside-menu-wrapper .aside-menu .menu-nav .menu-item.active a {
+    background-color: #111827;
+    color: #fff;
+}
+
+.menu-item-submenu.menu-item.activeSubNav a.subMenuMainItem {
+    background-color: #111827;
+    color: #fff;
+}
+
+/* width */
+.aside::-webkit-scrollbar {
+    width: 6px;
+}
+   
+.aside::-webkit-scrollbar-thumb {
+    background: #5c6066; 
+    border-radius: 10px;
+}
+
+.aside::-webkit-scrollbar-thumb {
+    display: block;
+}
+
+h4.menu-text {
+    color: #4c4e6f;
+}
+
+.menu-item-submenu .menu-submenu.hideSubMenu {
+    display: none;
+    transition: all .3s ease;
+}
+
+.menu-item-submenu .transformVertical {
+    transition: all .3s ease;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.menu-item-submenu .transformNone {
+    transition: all .3s ease;
+}
+
+.menu-item-submenu a .material-icons {
+    font-size: 18px;
+}
+
+.full-main-page.allowFullAside.hoverDisable .aside.minor-width {
+    width: 70px;
+    overflow-x: hidden;
+}
+
+.aside.minor-width .menu-item-li {
+    display: none;
+}
+
+.aside .brand:hover .icon-dark{ 
+    fill: #3699ff;
+}
+
+.aside.minor-width .brand .icon-dark{ 
+    fill: #3699ff;
+}
+
+.aside.minor-width .brand-toggle {
+    transition: all .15s ease;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.aside.aside-minimze-hover .menu-item-li {
+    display: block;
+}
+
+.aside.minor-width .material-icons.show-icon-toggle {
+    display: block !important;
+}
+
+.aside.minor-width.aisde-minor-hover .aside-menu-wrapper:hover {
+    width: 256px;
+}
+
+.aside.minor-width.aside-minimze-hover .material-icons.show-icon-toggle {
+    display: none !important;
+}
+
+.aside.aside-minimze-hover {
+    width: 256px;
+}
+
+.mobNavSideBar .menu-item-submenu.activeNestedSubNav a.mob-nav-category {
+    color: #3699ff;
+}
+
+.mobNavSideBar .menu-item-submenu.activeNestedSubNav a svg path {
+    fill: #3699ff;
+}
+
+.mobNavSideBar .menu-item-submenu.menu-item.activeSubNav .main-nav-item {
+    background-color: #eff6fe;
+    color: #3699ff;
+}

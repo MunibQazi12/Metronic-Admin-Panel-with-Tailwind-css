@@ -1,0 +1,125 @@
+.header-mobile .burger-icon-left .unequal-hamburger {
+    background-color: #484f66;
+    height: 3px;
+    width: 100%;
+}
+
+.header-mobile .burger-icon-left {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.header-mobile .burger-icon-left .unequal-hamburger {
+    display: block;
+    position: absolute;
+    border-radius: 3px;
+    transition: all .3s;
+    height: 3px;
+    min-height: 3px;
+    width: 100%;
+}
+
+.header-mobile .burger-icon-left .unequal-hamburger::before {
+    transition: all .3s;
+    left: auto;
+    right: 0;
+    width: 50%;
+    top: -8px;
+    display: block;
+    position: absolute;
+    border-radius: 3px;
+    height: 3px;
+    min-height: 3px;
+    content: "";
+    background-color: #484f66;
+}
+
+.header-mobile .burger-icon-left .unequal-hamburger::after {
+    transition: all .3s;
+    left: auto;
+    right: 0;
+    width: 75%;
+    bottom: -8px;
+    display: block;
+    position: absolute;
+    border-radius: 3px;
+    height: 3px;
+    min-height: 3px;
+    content: "";
+    background-color: #484f66;
+}
+
+.header-mobile .burger-icon-left .unequal-hamburger.blueHamburger, .header-mobile .burger-icon-left .unequal-hamburger.blueHamburger::before, .header-mobile .burger-icon-left .unequal-hamburger.blueHamburger::after {
+    background-color: #3699ff;
+}
+
+.header-mobile .burger-icon-left .unequal-hamburger::before:hover, .header-mobile .burger-icon-left .unequal-hamburger::before:focus, .header-mobile .burger-icon-left .unequal-hamburger::before:active {
+    background-color: #3699ff;
+}
+
+.header-mobile .burger-icon-menu .menu-hamburger {
+    background-color: #484f66;
+    height: 3px;
+    width: 100%;
+
+    display: block;
+    position: absolute;
+    border-radius: 3px;
+    transition: all .3s;
+    height: 3px;
+    min-height: 3px;
+    width: 100%;
+}
+
+.header-mobile .burger-icon-menu {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.header-mobile .burger-icon-menu .menu-hamburger::before {
+    transition: all .3s;
+    left: auto;
+    right: 0;
+    width: 100%;
+    top: -8px;
+    display: block;
+    position: absolute;
+    border-radius: 3px;
+    height: 3px;
+    min-height: 3px;
+    content: "";
+    background-color: #484f66;
+}
+
+.header-mobile .burger-icon-menu .menu-hamburger::after {
+    transition: all .3s;
+    left: auto;
+    right: 0;
+    width: 100%;
+    bottom: -8px;
+    display: block;
+    position: absolute;
+    border-radius: 3px;
+    height: 3px;
+    min-height: 3px;
+    content: "";
+    background-color: #484f66;
+}
+
+.header-mobile .user-icon-fill {
+    fill: #484f66;
+}
+
+.header-mobile .user-icon-fill:hover {
+    fill: #3699ff;
+}
+
+.header-mobile button:focus, .header-mobile button:hover, .header-mobile button:active {
+    outline: none;
+}
+
+.top-transition {
+    transition: top 1s ease;
+}

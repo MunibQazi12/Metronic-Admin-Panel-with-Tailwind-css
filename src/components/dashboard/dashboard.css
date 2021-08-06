@@ -1,0 +1,25 @@
+.full-main-page {
+    display: flex;
+}
+
+.full-main-page.disallowFullAside.hoverDisable .dashboard-main-content, .full-main-page.allowFullAside.hoverEnable .dashboard-main-content {
+    width: calc(100% - 256px);
+}
+
+.full-main-page.allowFullAside.hoverEnable .dashboard-main-content.bigSideBar {
+    width: calc(100% - 256px);
+}
+
+.full-main-page.disallowFullAside.hoverEnable .dashboard-main-content.bigSideBar {
+    width: calc(100% - 256px);
+}
+
+.full-main-page.allowFullAside.hoverDisable .dashboard-main-content.smallSideBar {
+    width: calc(100% - 70px);
+}
+
+@media (max-width: 1023px) {
+    .full-main-page .dashboard-main-content.bigSideBar {
+        width: 100% !important;
+    }
+}
