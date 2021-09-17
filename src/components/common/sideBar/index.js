@@ -111,8 +111,8 @@ class Sidebar extends Component {
         return (
             <>
                 <div className={`hidden lg:block aside w-64 ${this.state.asideToggle ? "minor-width" : "full-width"} ${this.state.onHoverAside ? "aside-minimze-hover" : ""}`}>   
-                    <div className={`aside bg-gray-800 md:fixed w-64 top-0 bottom-0 left-0 ${this.state.asideToggle ? "minor-width" : "full-width"} ${this.state.onHoverAside ? "aside-minimze-hover" : ""}`}>
-                        <div className="brand flex shadow-none justify-between items-center	flex-row h-16 bg-gray-900 pt-0 pb-0 pl-6 pr-6">
+                    <div className={`aside aside-bg md:fixed w-64 top-0 bottom-0 left-0 ${this.state.asideToggle ? "minor-width" : "full-width"} ${this.state.onHoverAside ? "aside-minimze-hover" : ""}`}>
+                        <div className="brand flex shadow-none justify-between items-center	flex-row h-16 aside-logo-bg pt-0 pb-0 pl-6 pr-6">
                             <Link to="/" className="brand-logo">
                                 <img src={LogoLight} alt="logo" />
                             </Link>

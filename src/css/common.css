@@ -19,6 +19,14 @@
     color: #fff;
 }
 
+.aside-bg {
+    background-color: #1e1e2d;
+}
+
+.aside-logo-bg {
+    background-color: #1a1a27;
+}
+
 .poppins {
     font-family: 'Poppins', sans-serif;
 }

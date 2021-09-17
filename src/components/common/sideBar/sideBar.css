@@ -3,12 +3,12 @@
 }
 
 .aside .aside-menu-wrapper .aside-menu .menu-nav .menu-item.active a {
-    background-color: #111827;
+    background-color: #1b1b28;
     color: #fff;
 }
 
 .menu-item-submenu.menu-item.activeSubNav a.subMenuMainItem {
-    background-color: #111827;
+    background-color: #1b1b28;
     color: #fff;
 }
 
