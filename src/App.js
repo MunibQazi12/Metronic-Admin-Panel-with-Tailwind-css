@@ -7,36 +7,35 @@ import ForgotPassword from './components/authentication/forgotPassword';
 
 function App() {
     return (
-          <div className="App">
-              <Router>
+        <div className="App">
+            <Router>
+                <Route
+                  	exact
+                  	path={"/auth/registration"}
+                  	component={SignUp} />
 
                 <Route
-                  exact
-                  path={"/auth/registration"}
-                  component={SignUp} />
+                  	exact
+                  	path={"/auth/login"}
+                  	component={Login} />
 
                 <Route
-                  exact
-                  path={"/auth/login"}
-                  component={Login} />
+                  	exact
+                  	path={"/auth/forgot-password"}
+                  	component={ForgotPassword} />
 
                 <Route
-                  exact
-                  path={"/auth/forgot-password"}
-                  component={ForgotPassword} />
+                  	exact
+                  	path={"/"}
+                  	component={Dashboard} />
 
                 <Route
-                  exact
-                  path={"/"}
-                  component={Dashboard} />
+                  	exact
+                  	path={"/table"}
+                  	component={Dashboard} />
 
-                <Route
-                  exact
-                  path={"/table"}
-                  component={Dashboard} />
-
-              </Router>
-          </div>
+            </Router>
+        </div>
     );
 }
 
