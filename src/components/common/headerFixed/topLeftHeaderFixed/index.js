@@ -49,6 +49,8 @@ class TopLeftHeaderFixed extends Component {
                 bootstrapSubMenu: false,
                 customSubMenu: false
             });
+            console.log("Hellllllo!!!!!");
+            alert("You clicked outside of me!");
         }
     };
 
